@@ -1,7 +1,7 @@
 <h1 align="center">Hi 👋, I'm farzana kaisar</h1>
-<h3 align="center">A passionate computer science engineer from India</h3>
-
-<img align=“right” alt=“coding” width=“400” src=“￼https://www.google.com/url?sa=i&url=https%3A%2F%2Ficonscout.com%2Flotties%2Ffemale-web-developer&psig=AOvVaw1XGOeSHHfut5v1urL87w7K&ust=1695752902189000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCMi_0_yxxoEDFQAAAAAdAAAAABAL“>
+<h3 align="center">A passionate frontend developer from India</h3>
+<img align=“right” alt=“coding” width=“400” src=“￼
+“>
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=farzanakaisar&label=Profile%20views&color=0e75b6&style=flat" alt="farzanakaisar" /> </p>
 
 <h3 align="left">Connect with me:</h3>
