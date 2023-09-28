@@ -1,4 +1,4 @@
-
+3D BIKE STIMULATION
 /**************************************
 * Beginning of the header file "bike.h"
 ***************************************/
