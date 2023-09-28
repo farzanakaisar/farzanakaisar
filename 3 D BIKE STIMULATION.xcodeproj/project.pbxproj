@@ -1,0 +1,327 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C90F73552A4C4F620034442B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C90F73542A4C4F620034442B /* main.cpp */; };
+		C90F735D2A4C553C0034442B /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C90F735C2A4C553C0034442B /* OpenGL.framework */; };
+		C90F73612A4C57500034442B /* libglfw.3.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C90F73602A4C574F0034442B /* libglfw.3.3.dylib */; };
+		C90F73632A4C59A70034442B /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C90F73622A4C59A70034442B /* GLUT.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C90F734F2A4C4F620034442B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		C90F73512A4C4F620034442B /* 3 D BIKE STIMULATION */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "3 D BIKE STIMULATION"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C90F73542A4C4F620034442B /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		C90F735C2A4C553C0034442B /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		C90F735E2A4C55E30034442B /* System Settings.app */ = {isa = PBXFileReference; lastKnownFileType = wrapper.application; name = "System Settings.app"; path = "../../../../System/Applications/System Settings.app"; sourceTree = "<group>"; };
+		C90F73602A4C574F0034442B /* libglfw.3.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libglfw.3.3.dylib; path = ../../Desktop/bsproj/dependencies/library/libglfw.3.3.dylib; sourceTree = "<group>"; };
+		C90F73622A4C59A70034442B /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
+		C90F73642A4C5B550034442B /* libglfw.3.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libglfw.3.3.dylib; path = ../../../../usr/local/Cellar/glfw/3.3.8/lib/libglfw.3.3.dylib; sourceTree = "<group>"; };
+		C90F73662A4C5B730034442B /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../../../../usr/local/Cellar/glfw/3.3.8/README.md; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C90F734E2A4C4F620034442B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C90F73632A4C59A70034442B /* GLUT.framework in Frameworks */,
+				C90F73612A4C57500034442B /* libglfw.3.3.dylib in Frameworks */,
+				C90F735D2A4C553C0034442B /* OpenGL.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C90F73482A4C4F620034442B = {
+			isa = PBXGroup;
+			children = (
+				C90F73532A4C4F620034442B /* p */,
+				C90F73522A4C4F620034442B /* Products */,
+				C90F735B2A4C553C0034442B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C90F73522A4C4F620034442B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C90F73512A4C4F620034442B /* 3 D BIKE STIMULATION */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+			usesTabs = 0;
+		};
+		C90F73532A4C4F620034442B /* p */ = {
+			isa = PBXGroup;
+			children = (
+				C90F73542A4C4F620034442B /* main.cpp */,
+			);
+			path = p;
+			sourceTree = "<group>";
+		};
+		C90F735B2A4C553C0034442B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C90F73662A4C5B730034442B /* README.md */,
+				C90F73642A4C5B550034442B /* libglfw.3.3.dylib */,
+				C90F73622A4C59A70034442B /* GLUT.framework */,
+				C90F73602A4C574F0034442B /* libglfw.3.3.dylib */,
+				C90F735E2A4C55E30034442B /* System Settings.app */,
+				C90F735C2A4C553C0034442B /* OpenGL.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C90F73502A4C4F620034442B /* 3 D BIKE STIMULATION */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C90F73582A4C4F620034442B /* Build configuration list for PBXNativeTarget "3 D BIKE STIMULATION" */;
+			buildPhases = (
+				C90F734D2A4C4F620034442B /* Sources */,
+				C90F734E2A4C4F620034442B /* Frameworks */,
+				C90F734F2A4C4F620034442B /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "3 D BIKE STIMULATION";
+			productName = p;
+			productReference = C90F73512A4C4F620034442B /* 3 D BIKE STIMULATION */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C90F73492A4C4F620034442B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					C90F73502A4C4F620034442B = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = C90F734C2A4C4F620034442B /* Build configuration list for PBXProject "3 D BIKE STIMULATION" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C90F73482A4C4F620034442B;
+			productRefGroup = C90F73522A4C4F620034442B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C90F73502A4C4F620034442B /* 3 D BIKE STIMULATION */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C90F734D2A4C4F620034442B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C90F73552A4C4F620034442B /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C90F73562A4C4F620034442B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGINING_ALLOWED = NO;
+				CODE_SIGN_IDENTITY = "";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = /usr/local/Cellar/glfw/3.3.8/include;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				NEW_SETTING = "";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		C90F73572A4C4F620034442B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGINING_ALLOWED = NO;
+				CODE_SIGN_IDENTITY = "";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = /usr/local/Cellar/glfw/3.3.8/include;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				NEW_SETTING = "";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		C90F73592A4C4F620034442B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PJ4GZ4UC2A;
+				ENABLE_HARDENED_RUNTIME = YES;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/usr/local/Cellar/glfw/3.3.8/lib,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C90F735A2A4C4F620034442B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PJ4GZ4UC2A;
+				ENABLE_HARDENED_RUNTIME = YES;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/usr/local/Cellar/glfw/3.3.8/lib,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C90F734C2A4C4F620034442B /* Build configuration list for PBXProject "3 D BIKE STIMULATION" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C90F73562A4C4F620034442B /* Debug */,
+				C90F73572A4C4F620034442B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C90F73582A4C4F620034442B /* Build configuration list for PBXNativeTarget "3 D BIKE STIMULATION" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C90F73592A4C4F620034442B /* Debug */,
+				C90F735A2A4C4F620034442B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C90F73492A4C4F620034442B /* Project object */;
+}
