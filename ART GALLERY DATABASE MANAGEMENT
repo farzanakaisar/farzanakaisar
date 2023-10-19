@@ -1,3 +1,7 @@
+ABSTRACT
+The complete ART GALLERY MANAGEMENT DATABASE using PHP MySQL is a project that will help a particular Engineering college manage the record grades record of their students. The system stores the grades per subject and grade level of each student per periodic grading. The student’s final grade for each subject will be automatically calculated and labeled the status if either the student passed or failed the subject. The system was minimally based on storing and managing the student records in one of the Engineering College.
+The present scenario offers manual data entry. A lot of time is wasted in creating the reports as well as maintaining them. In case, if any query arises to get the information about the enquiry, artist, art type, art medium and art products the whole report is re-typed or xeroxed. This seriously affects the authentication of the system. This Art Gallery Management System is totally outdated and involves high risk of ambiguity and redundancy.
+
 SOURCE CODE
 PHP WEB SERVER:
 
